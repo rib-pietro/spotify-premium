@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+div.collapse.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.navbar-dark .navbar-nav .nav-link, header{
+    color: white;
+}
+
+.nav-link.separator{
+    border: 1px solid white;    
+    padding: 0 1rem;
+}
+
+header, header .container{
+    min-height: 640px;
+}
+
+header{
+    background-image: url('https://campaigns.scdn.co/images/premium_dancer_prod.png'), linear-gradient(#509bf5, #509bf5);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    font-weight: 900;
+    position: relative;
+}
+
+header h1{
+    font-weight: 900;
+    font-size: 96px;
+}
+
+header p.sub-headline{
+    font-size: 32px;
+}
+
+.btn.btn-success{
+    padding: 1rem 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+header p.warning{
+    text-align: center;
+}
+
+#therms{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#advantages .rounded-circle{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage{
+    text-align: center;
+}
+
+section#plans{
+    background-color: #f8f8f8;
+}
+
+#plans h2{
+    text-align: center;
+}
+
+#plans .card{
+    padding: 1.5rem;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    position: relative;
+    top: 0;
+    transition-timing-function: ease-out;
+    transition-property: top;
+    transition-duration: 0.2s;
+}
+
+#plans .card:hover{
+    top: -5px;
+    transition-timing-function: ease-out;
+    transition-property: top;
+    transition-duration: 0.2s;
+}
+
+#plans .card .btn{
+    padding: 0.7rem 0;
+    font-weight: 900;
+}
+
+#plans .card .btn.btn-outline-success{
+    border-width: 2px;
+}
+
+#plans h3{
+    font-size: 1.5rem;
+}
+
+#plans .pricing{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#plans .pricing span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#plans ul.list-group{
+    border: 0;
+}
+
+#plans ul li{
+    list-style-position: inside;
+    list-style-image: url('correct.png');
+    color: #c1c3c6;
+    line-height: 2rem;
+}
+
+#plans ul li.active{
+    list-style-image: url('correct-active.png');
+    color: black;
+}
+
+#plans ul li.list-group-item{
+    border: 0;
+    color: black;
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+#plans ul li.list-group-item .btn{
+    color: #28a745;
+}
